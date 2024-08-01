@@ -41,10 +41,10 @@ axes[1].set_title('Translated Image')
 
 axes[2].imshow(rotated_image)
 axes[2].set_title('Rotated Image')
-
+axes[2].axis('off')
 
 axes[3].imshow(scaled_image)
 axes[3].set_title('Scaled Image')
-
+axes[3].axis('off')
 
 plt.show()
